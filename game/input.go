@@ -25,5 +25,10 @@ func mousePlace(grid *[global.GRID_WIDTH][global.GRID_HEIGHT]byte) {
 		mousePosition := rl.GetMousePosition()
 		grid_location := findGridSpace(mousePosition)
 		placePixel(grid, grid_location, 's')
+	} else if rl.IsMouseButtonDown(rl.MouseRightButton) {
+		mousePosition := rl.GetMousePosition()
+		grid_location := findGridSpace(mousePosition)
+		placePixel(grid, grid_location, 'b')
 	}
+	
 }
