@@ -1,9 +1,4 @@
-  ________ __________ .___ ___________
- /  _____/ \______   \|   |\__    ___/
-/   \  ___  |       _/|   |  |    |   
-\    \_\  \ |    |   \|   |  |    |   
- \______  / |____|_  /|___|  |____|   
-        \/         \/                 
+-- Grit --
 
 By dawid and piotrek
 
@@ -13,11 +8,6 @@ By dawid and piotrek
 
 -UNFINISHED: 
 - plan to add more blocks, gui, advanced block placement and multithreading sorta
-
-BUGS:
-- blocks immediately teleport to the bottom of the screen (in the correct place tho), without falling each frame which is what I should expect
-- sand doesn't sink under water even though it should in my code
--x- glitchy effects when trying to place blocks on already existing blocks FIXED, A BYPRODUCT OF THE FIRST BUG
 
 piotrek if u can try to fix something would be appreciated, I can answer questions if not ok, I think the first bug is most important to fix
 also to put it on GitHub or something cuz idk how 
